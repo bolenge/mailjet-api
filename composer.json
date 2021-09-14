@@ -1,0 +1,21 @@
+{
+    "name": "bolenge/mailjet-api",
+    "description": "API allowing you to interact with Mailjet",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Don de Dieu Bolenge",
+            "email": "dondedieubolenge@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "files": ["src/Helpers/functions.php"],
+        "psr-4": {
+            "Bolenge\\Mailjet\\": "src/"
+        }
+    }
+}
